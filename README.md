@@ -7,6 +7,12 @@ I started this in the morning and am just wrapping it up early afternoon. I thin
 ## Notes
 My personal goal was: simple, elegant. I tried to reduce visual noise by creating space for elements and also add some interesting transitions that heighten the UX. I wanted to soften the feel of the page a little so I chose to use lighter colors with smooth gradients calm the effect on the eye. A design is just a design -- one of millions of possibilities for a layout and set of components that a user can interact with. This isn't perfect, and a lot depends on what the feeling is that the organization is trying to convey. I like trying to convert those sentiments into functionality and UX that meets both the needs of the org and also the eye of the user. 
 
+## Demo
+
+https://github.com/sheamusburns/clearbrief-demo/assets/8462408/76c2b166-d449-49ca-abfb-f13ca33ba7b9
+
+
+
 ## Setup 
 - clone project
 - run `npm start`
