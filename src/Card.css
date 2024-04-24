@@ -1,0 +1,84 @@
+.card {
+    background: linear-gradient(145deg, #77a5b7, #f3f8fc);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(181, 203, 211);
+    transition: transform 0.3s ease;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    position: relative;
+    z-index: 1;
+    margin-top: 5px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    z-index: 2;
+}
+
+.card-image-wrapper {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-image {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 15px rgb(68, 104, 140);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    transform: scale(0.8);
+    align-self: center;
+    cursor: pointer;
+}
+
+.card-image-wrapper:hover .card-image {
+    transform: scale(.9);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    border: 3px solid white;
+}
+
+.card-info {
+    padding: 15px;
+}
+
+.card-name {
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+}
+
+.card-title {
+    color: #44688c;
+    font-size: .8rem;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-top: 8px;
+    min-height: 2rem;
+}
+
+.card-button {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    background: #5e9fbb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    outline: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background: #44688c;
+}

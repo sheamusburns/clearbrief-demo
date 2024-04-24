@@ -1,0 +1,89 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    overflow-y: auto;
+    align-items: center;
+    z-index: 1000; /* High z-index to ensure it's above other content */
+}
+
+.modal-summary {
+    margin-top: 20px;
+    padding-left: 10px;
+    min-width: 200px;
+    border-right: #7d8594 1px solid;
+}
+
+.modal-photo-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+.modal-content {
+    background: linear-gradient(145deg, #ffffff, #cfdfe5);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    width: 90%;
+    z-index: 1001; /* Above the backdrop */
+    position: relative; /* Allows for absolute positioning of children elements like a close button */
+    max-height: 90vh;
+    overflow-y: auto;
+    margin: 2% auto;
+}
+
+.modal-close-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal-body {
+    text-align: left;
+    display: flex;
+}
+
+.modal-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+    border: 3px solid white;
+}
+
+.modal-name {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    color: #102A43;
+}
+
+.modal-title {
+    margin: 0;
+    font-size: 1rem;
+    color: #44688c;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+}
+
+.modal-bio {
+    padding: 20px;
+    text-align: left;
+    margin-top: 1rem;
+    font-family: "Noto Sans", sans-serif;
+}
+

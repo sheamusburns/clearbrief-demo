@@ -1,70 +1,14 @@
-# Getting Started with Create React App
+# ClearBrief Demo Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Since I'm almost 6 months out of practice with JavaScript and React, I figured I'd get my head back into coding in JS/React by doing a quick little project to demonstrate my experience and skills. I took a look at the ClearBrief site and noticed there are a lot of heads/avatars on the main page. A common practice is to use cards and modals for profile-type UX, so I thought it would make sense to build out a quick app that shows a different style for displaying and interacting with the information the ClearBrief site displays about the team members. 
 
-## Available Scripts
+I started this in the morning and am just wrapping it up early afternoon. I think it demonstrates an understanding of dom manipulation, js itself, style and design, as well as attention to detail. If you have any questions please feel free to reach out. 
 
-In the project directory, you can run:
+## Notes
+My personal goal was: simple, elegant. I tried to reduce visual noise by creating space for elements and also add some interesting transitions that heighten the UX. I wanted to soften the feel of the page a little so I chose to use lighter colors with smooth gradients calm the effect on the eye. A design is just a design -- one of millions of possibilities for a layout and set of components that a user can interact with. This isn't perfect, and a lot depends on what the feeling is that the organization is trying to convey. I like trying to convert those sentiments into functionality and UX that meets both the needs of the org and also the eye of the user. 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Setup 
+- clone project
+- run `npm start`
+- go to "http://localhost:3000" in browser
+- Have fun!
